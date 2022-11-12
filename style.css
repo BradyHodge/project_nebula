@@ -1,0 +1,100 @@
+body {
+    font-family: 'Andalé Mono', monospace;
+    background-color: #eff6ff;
+}
+.center {
+    margin: auto;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.header{
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+h1 {
+    font-size: 4em;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: .3rem;
+}
+h2 {
+    font-size: 5em;
+    font-weight: 100;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5em;
+    letter-spacing: .5rem;
+}
+
+li a:hover:not(.active) {
+    color: #93add0;
+}
+
+.active {
+    color: #93add0;
+}
+
+.left {
+    float: left;
+    padding: 1%;
+    margin-left: 30%;
+}
+.right {
+    float: right;
+    padding: 1%;
+    margin-right: 30%;
+}
+
+.item-a {
+    grid-column-start: 2;
+    grid-column-end: five;
+    grid-row-start: row1-start;
+    grid-row-end: 3;
+}
+
+.whiteBG {
+    background-color: white;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+.grid-item {
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 3%;
+}
+
+p {
+    font-size: 1.5em;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: .3rem;
+    padding: 10%;
+    border-radius: 15px;
+}
