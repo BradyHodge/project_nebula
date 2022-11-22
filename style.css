@@ -2,6 +2,10 @@ body {
     font-family: 'Andalé Mono', monospace;
     background-color: #eff6ff;
 }
+.link {
+    color: #000000;
+    text-decoration: underline;
+}
 .center {
     margin: auto;
     margin: auto;
