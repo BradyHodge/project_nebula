@@ -20,13 +20,13 @@ body {
     top: 0;
 }
 h1 {
-    font-size: 4em;
+    font-size: 5vw;
     font-weight: 100;
     text-align: center;
-    letter-spacing: .3rem;
+    letter-spacing: .9vw;
 }
 h2 {
-    font-size: 5em;
+    font-size: 10vw;
     font-weight: 100;
 }
 
@@ -49,8 +49,8 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 1.5em;
-    letter-spacing: .5rem;
+    font-size: 3vw;
+    letter-spacing: .5vw;
 }
 
 li a:hover:not(.active) {
@@ -82,10 +82,13 @@ li a:hover:not(.active) {
 .whiteBG {
     background-color: white;
 }
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    padding: 10px;
+@media only screen and (min-width: 640px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 10px;
+    }
+    
 }
 .grid-item {
     padding: 20px;
@@ -95,10 +98,10 @@ li a:hover:not(.active) {
 }
 
 p {
-    font-size: 1.5em;
+    font-size: 3vw;
     font-weight: 100;
     text-align: center;
-    letter-spacing: .3rem;
+    letter-spacing: .8vw;
     padding: 10%;
     border-radius: 15px;
 }
