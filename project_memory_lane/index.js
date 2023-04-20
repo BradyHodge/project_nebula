@@ -1,229 +1,254 @@
 const questions = [
     {
 
-        question: "How many days makes a week ?",
-        optionA: "10 days",
-        optionB: "14 days",
-        optionC: "5 days",
-        optionD: "7 days",
-        correctOption: "optionD"
+        question: "Who is this person?",
+        optionA: "Liam Neeson",
+        optionB: "Kate Winslet",
+        optionC: "Arnold Schwarzenegger",
+        optionD: "Johnny Depp",
+        correctOption: "optionD",
+        image: "./images/JohnnyDepp.jpg"
     },
 
     {
-        question: "How many players are allowed on a soccer pitch ?",
-        optionA: "10 players",
-        optionB: "11 players",
-        optionC: "9 players",
-        optionD: "12 players",
-        correctOption: "optionB"
+        question: "Who is this person?",
+        optionA: "Mark Wahlberg",
+        optionB: "Arnold Schwarzenegger",
+        optionC: "Natalie Portman",
+        optionD: "Pierce Brosnan",
+        correctOption: "optionB",
+        image: "./images/ArnoldSchwarzenegger.jpg"
     },
 
     {
-        question: "Who was the first President of USA ?",
-        optionA: "Donald Trump",
-        optionB: "Barack Obama",
-        optionC: "Abraham Lincoln",
-        optionD: "George Washington",
-        correctOption: "optionD"
+        question: "Who is this person?",
+        optionA: "Orlando Bloom",
+        optionB: "Dwayne Johnson",
+        optionC: "Sean Connery",
+        optionD: "Jim Carrey",
+        correctOption: "optionD",
+        image: "./images/JimCarrey.jpg"
     },
 
     {
-        question: "30 days has ______ ?",
-        optionA: "January",
-        optionB: "December",
-        optionC: "June",
-        optionD: "August",
-        correctOption: "optionC"
+        question: "Who is this person?",
+        optionA: "Rachel McAdams",
+        optionB: "Angelina Jolie",
+        optionC: "Emma Watson",
+        optionD: "Scarlett Johansson",
+        correctOption: "optionC",
+        image: "./images/EmmaWatson.jpg"
     },
 
     {
-        question: "How manay hours can be found in a day ?",
-        optionA: "30 hours",
-        optionB: "38 hours",
-        optionC: "48 hours",
-        optionD: "24 hours",
-        correctOption: "optionD"
+        question: "Who is this person?",
+        optionA: "Adam Sandler",
+        optionB: "Heath Ledger",
+        optionC: "Edward Norton",
+        optionD: "Robert Downey Jr.",
+        correctOption: "optionD",
+        image: "./images/RobertDowneyJr.jpg"
     },
 
     {
-        question: "Which is the longest river in the world ?",
-        optionA: "River Nile",
-        optionB: "Long River",
-        optionC: "River Niger",
-        optionD: "Lake Chad",
-        correctOption: "optionA"
+        question: "Who is this person?",
+        optionA: "Daniel Radcliffe",
+        optionB: "Bradley Cooper",
+        optionC: "Will Ferrell",
+        optionD: "Nicolas Cage",
+        correctOption: "optionA",
+        image: "./images/DanielRadcliffe.jpg"
     },
 
     {
-        question: "_____ is the hottest Continent on Earth ?",
-        optionA: "Oceania",
-        optionB: "Antarctica",
-        optionC: "Africa",
-        optionD: "North America",
-        correctOption: "optionC"
+        question: "Who is this person?",
+        optionA: "Daniel Craig",
+        optionB: "Keanu Reeves",
+        optionC: "Chris Evans",
+        optionD: "Ian McKellen",
+        correctOption: "optionC",
+        image: "./images/ChrisEvans.jpg"
     },
 
     {
-        question: "Which country is the largest in the world ?",
-        optionA: "Russia",
-        optionB: "Canada",
-        optionC: "Africa",
-        optionD: "Egypt",
-        correctOption: "optionA"
+        question: "Who is this person?",
+        optionA: "Leonardo DiCaprio",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctOption: "optionA",
+        image: "./images/LeonardoDiCaprio.jpg"
     },
 
     {
-        question: "Which of these numbers is an odd number ?",
-        optionA: "Ten",
-        optionB: "Twelve",
-        optionC: "Eight",
-        optionD: "Eleven",
-        correctOption: "optionD"
+        question: "Who is this person?",
+        optionA: "Bruce Willis",
+        optionB: "Samuel L. Jackson",
+        optionC: "Ben Stiller",
+        optionD: "Tom Cruise",
+        correctOption: "optionD",
+        image: "./images/TomCruise.jpg"
     },
 
     {
-        question: `"You Can't see me" is a popular saying by`,
+        question: "Who is this person?",
         optionA: "Eminem",
         optionB: "Bill Gates",
-        optionC: "Chris Brown",
-        optionD: "John Cena",
-        correctOption: "optionD"
+        optionC: "Tommy Lee Jones",
+        optionD: "Brad Pitt",
+        correctOption: "optionD",
+        image: "./images/BradPitt.jpg"
     },
 
     {
-        question: "Where is the world tallest building located ?",
-        optionA: "Africa",
-        optionB: "California",
-        optionC: "Dubai",
-        optionD: "Italy",
-        correctOption: "optionC"
+        question: "Who is this person?",
+        optionA: "Antonio Banderas",
+        optionB: "Shia LaBeouf",
+        optionC: "Charles Chaplin",
+        optionD: "george washington",
+        correctOption: "optionC",
+        image: "./images/CharlesChaplin.jpg"
     },
 
     {
-        question: "The longest river in the United Kingdom is ?",
-        optionA: "River Severn",
-        optionB: "River Mersey",
-        optionC: "River Trent",
-        optionD: "River Tweed",
-        correctOption: "optionA"
+        question: "Who is this person?",
+        optionA: "Morgan Freeman",
+        optionB: " Steve Carell",
+        optionC: "Denzel Washington",
+        optionD: "James Franco",
+        correctOption: "optionA",
+        image: "./images/MorganFreeman.jpg"
     },
 
 
     {
-        question: "How many permanent teeth does a dog have ?",
-        optionA: "38",
-        optionB: "42",
-        optionC: "40",
-        optionD: "36",
-        correctOption: "optionB"
+        question: "Who is this person?",
+        optionA: "Mel Gibson",
+        optionB: "Tom Hanks",
+        optionC: "Vin Diesel",
+        optionD: "Tim Allen",
+        correctOption: "optionB",
+        image: "./images/TomHanks.jpg"
     },
 
     {
-        question: "Which national team won the football World cup in 2018 ?",
-        optionA: "England",
-        optionB: "Brazil",
-        optionC: "Germany",
-        optionD: "France",
-        correctOption: "optionD"
+        question: "Who is this person?",
+        optionA: "Robin Williams",
+        optionB: "Kevin Spacey",
+        optionC: "Jason Biggs",
+        optionD: "Hugh Jackman",
+        correctOption: "optionD",
+        image: "./images/HughJackman.jpg"
     },
 
     {
-        question: "Which US state was Donald Trump Born ?",
-        optionA: "New York",
-        optionB: "California",
-        optionC: "New Jersey",
-        optionD: "Los Angeles",
-        correctOption: "optionA"
+        question: "Who is this person?",
+        optionA: "Matt Damon",
+        optionB: "Seann William Scott",
+        optionC: "Jean-Claude Van Damme",
+        optionD: "Zach Galifianakis",
+        correctOption: "optionA",
+        image: "./images/MattDamon.jpg"
     },
 
     {
-        question: "How man states does Nigeria have ?",
-        optionA: "24",
-        optionB: "30",
-        optionC: "36",
-        optionD: "37",
-        correctOption: "optionC"
+        question: "Who is this person?",
+        optionA: "Owen Wilson",
+        optionB: "Christian Bale",
+        optionC: "Sylvester Stallone",
+        optionD: "Peter Jackson",
+        correctOption: "optionC",
+        image: "./images/SylvesterStallone.jpg"
     },
 
     {
-        question: "____ is the capital of Nigeria ?",
-        optionA: "Abuja",
-        optionB: "Lagos",
-        optionC: "Calabar",
-        optionD: "Kano",
-        correctOption: "optionA"
+        question: "Who is this person?",
+        optionA: "Will Smith",
+        optionB: "Bruce Lee",
+        optionC: "Macaulay Culkin",
+        optionD: "Jack Nicholson",
+        correctOption: "optionA",
+        image: "./images/WillSmith.jpg"
     },
 
     {
-        question: "Los Angeles is also known as ?",
-        optionA: "Angels City",
-        optionB: "Shining city",
-        optionC: "City of Angels",
-        optionD: "Lost Angels",
-        correctOption: "optionC"
+        question: "Who is this person?",
+        optionA: "Bill Murray",
+        optionB: "Jake Gyllenhaal",
+        optionC: "Clint Eastwood",
+        optionD: "Jason Statham",
+        correctOption: "optionC",
+        image: "./images/ClintEastwood.jpg"
     },
 
     {
-        question: "What is the capital of Germany ?",
-        optionA: "Georgia",
-        optionB: "Missouri",
-        optionC: "Oklahoma",
-        optionD: "Berlin",
-        correctOption: "optionD"
+        question: "Who is this person?",
+        optionA: "Rowan Atkinson",
+        optionB: "Marlon Brando",
+        optionC: "John Travolta",
+        optionD: "Russell Crowe",
+        correctOption: "optionD",
+        image: "./images/RussellCrowe.jpg"
     },
 
     {
-        question: "How many sides does an hexagon have ?",
-        optionA: "Six",
-        optionB: "Sevene",
-        optionC: "Four",
-        optionD: "Five",
-        correctOption: "optionA"
+        question: "Who is this person?",
+        optionA: "Cameron Diaz",
+        optionB: "Channing Tatum",
+        optionC: "Ben Affleck",
+        optionD: "Shah Rukh Khan",
+        correctOption: "optionA",
+        image: "./images/CameronDiaz.jpg"
     },
 
     {
-        question: "How many planets are currently in the solar system ?",
-        optionA: "Eleven",
-        optionB: "Seven",
-        optionC: "Nine",
-        optionD: "Eight",
-        correctOption: "optionD"
+        question: "Who is this person?",
+        optionA: "Chris Hemsworth",
+        optionB: "James McAvoy",
+        optionC: "James Cameron",
+        optionD: "George Clooney",
+        correctOption: "optionD",
+        image: "./images/GeorgeClooney.jpg"
     },
 
     {
-        question: "Which Planet is the hottest ?",
-        optionA: "Jupitar",
-        optionB: "Mercury",
-        optionC: "Earth",
-        optionD: "Venus",
-        correctOption: "optionB"
+        question: "Who is this person?",
+        optionA: "Amitabh Bachchan",
+        optionB: "Steven Spielberg",
+        optionC: "Brendan Fraser",
+        optionD: "Tom Hiddleston",
+        correctOption: "optionB",
+        image: "./images/StevenSpielberg.jpg"
     },
 
     {
-        question: "where is the smallest bone in human body located?",
-        optionA: "Toes",
-        optionB: "Ears",
-        optionC: "Fingers",
-        optionD: "Nose",
-        correctOption: "optionB"
+        question: "Who is this person?",
+        optionA: "Aamir Khan",
+        optionB: "Harrison Ford",
+        optionC: "Jackie Chan",
+        optionD: "Kanye West",
+        correctOption: "optionB",
+        image: "./images/HarrisonFord.jpg"
     },
 
     {
-        question: "How many hearts does an Octopus have ?",
-        optionA: "One",
-        optionB: "Two",
-        optionC: "Three",
-        optionD: "Four",
-        correctOption: "optionC"
+        question: "Who is this person?",
+        optionA: "Roger Federe",
+        optionB: "Cristiano Ronaldo",
+        optionC: "Robert De Niro",
+        optionD: "Lionel Messi",
+        correctOption: "optionC",
+        image: "./images/RobertDeNiro.jpg"
     },
 
     {
-        question: "How many teeth does an adult human have ?",
-        optionA: "28",
-        optionB: "30",
-        optionC: "32",
-        optionD: "36",
-        correctOption: "optionC"
+        question: "Who is this person?",
+        optionA: "Lionel Messi",
+        optionB: "Neymar",
+        optionC: "Al Pacino",
+        optionD: "Howard Stern",
+        correctOption: "optionC",
+        image: "./images/AlPacino.jpg"
     }
 
 ]
@@ -258,6 +283,14 @@ function NextQuestion(index) {
     document.getElementById("option-two-label").innerHTML = currentQuestion.optionB;
     document.getElementById("option-three-label").innerHTML = currentQuestion.optionC;
     document.getElementById("option-four-label").innerHTML = currentQuestion.optionD;
+     // Check if current question has an image property
+    if (currentQuestion.hasOwnProperty("image")) {
+        // If it does, update the HTML to display the image
+        document.getElementById("display-question").innerHTML = `<img src="${currentQuestion.image}" alt="Question Image" id="question-image">`
+    } else {
+        // If it doesn't, display the question as usual
+        document.getElementById("display-question").innerHTML = currentQuestion.question
+    }
 
 }
 
@@ -305,8 +338,6 @@ function checkForAnswer() {
         }
     })
 }
-
-
 
 //called when the next button is called
 function handleNextQuestion() {

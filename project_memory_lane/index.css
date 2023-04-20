@@ -1,3 +1,10 @@
+#question-image {
+    top: 0; /* positions the image at the top of the container */
+    left: 0; /* positions the image at the left of the container */
+    width: 80%; /* sets the image width to 100% of the container */
+    height: auto; /* sets the image height to adjust proportionally */
+    z-index: -1; /* sets the image z-index to be behind other elements */
+}
 *{
     margin: 0;
     padding: 0;
@@ -58,7 +65,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid darkgray;
+    /* border: 2px solid darkgray; */
     border-radius: 25px;
 }
 
