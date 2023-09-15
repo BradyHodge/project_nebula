@@ -1,6 +1,6 @@
 
 // Function to toggle color scheme of the dark mode icon (runs in the darkMode function)
-function toggleColorScheme() {
+function toggleLogoColorScheme() {
 
     // Color schemes
     const lightScheme = "primary:#b4b4b4,secondary:#f7cd8f,tertiary:#000000";
@@ -35,8 +35,12 @@ function darkMode() {
       // Toggle the color scheme for non black items
         element.classList.toggle('darkBG');
     });
+    const links = document.querySelectorAll('a');
+    links.forEach(element => {
+        element.classList.toggle('dark-mode-link');
+    });
     // Toggle the color scheme for the dark mode icon
-    toggleColorScheme();
+    toggleLogoColorScheme();
 }
 
 // Function to set the dark mode preference on page load
@@ -51,7 +55,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
         whiteBG.forEach(element => {
             element.classList.add('darkBG');
         });
-        toggleColorScheme();
+        const links = document.querySelectorAll('a');
+        links.forEach(element => {
+            element.classList.add('dark-mode-link');
+        });
+        toggleLogoColorScheme();
     }
 });
 
